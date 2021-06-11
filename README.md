@@ -1,4 +1,6 @@
 
+The Project was made in 2018 and Closed from then
+
 # simple-blog 
 a Simple Personal Blog made with PHP and MySQL
 
