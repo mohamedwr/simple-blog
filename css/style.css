@@ -1,0 +1,300 @@
+/* Start Main */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0.1); 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #28a745; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #343A40; 
+}
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    background-color: #000;
+    overflow-x: hidden;
+}
+
+/* End Main */
+
+/* Start Nav Bar */
+
+.navbar-section .navbar .navbar-brand{
+    font-size: 1.8rem;
+}
+
+.navbar-section .navbar .navbar-brand:hover .collapse{
+    display: none;
+}
+
+.navbar-section .navbar .navbar-brand span{
+    color: #28a745;
+}
+
+.navbar-section .navbar .navbar-brand img{
+    height: 75px;
+    width: 75px;
+}
+
+.navbar-section .navbar .navbar-brand p{
+    display: inline-block;
+}
+
+.navbar-section .navbar .collapse ul:hover{
+    transition: all .5s;
+}
+
+.navbar-section .navbar .collapse ul .nav-item .nav-link{
+    color: #fff;
+    font-size: 18px;
+}
+
+.navbar-section .navbar .collapse ul .nav-item.active .nav-link{
+    color: #28a745;
+}
+
+.navbar-section .navbar .collapse ul .nav-item .nav-link:hover{
+    color: #28a745;
+}
+
+.navbar-section .navbar .collapse ul .nav-item .dropdown-menu .dropdown-item:hover{
+    background-color: #28a745;
+    color: #fff;
+}
+
+/* End Nav Bar */
+
+/* Start Main Section */
+
+.main{
+    margin-top: 20px!important;
+}
+
+.main aside{
+    width: 30%;
+    margin-left: 50px;
+    display: inline-block;
+}
+
+.main aside .jumbotron form input{
+    background-color: #E9ECEF;
+    border: #28A745 1px solid;
+    width: 70%;
+    margin-right: 5px!important;
+}
+
+.main main{
+    /*margin-left: 3%;*/
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+
+.main .jumbotron{
+    padding: 2.5rem 2rem;
+}
+
+.main .jumbotron h2{
+    font-size: 2rem;
+}
+
+.main .jumbotron p{
+    font-size: 1.25rem;
+}
+
+.main .jumbotron span.lead{
+    font-size: 1rem;
+}
+
+.main .jumbotron span.jsl-before::before{
+    content: " / "
+}
+
+/* End Main Section */
+
+/* Start LPaths */
+
+.lpaths{
+    background-color: #E9ECEF;
+    padding: 20px;
+}
+
+.lpaths div img{
+    width: 500px;
+    height: 300px;
+}
+
+/* End LPaths */
+
+/* Start Footer */
+
+.footer{
+    background-color: #000;
+    color:#fff;
+}
+
+.footer hr{
+    background-color: #fff;
+}
+
+.footer .copyright{
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+/* Section My Stats */
+
+.mystats{
+    background-color: #e9ecef;
+    padding: 20px;
+}
+
+.mystats .row div{
+    margin-bottom: 50px;
+}
+
+/* End Footer */
+
+/* Start About Page */
+
+/* Section me */
+
+.me{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.me div{
+    width:49%;
+    text-align: right;
+}
+
+.me div.lead{
+    font-size: 1.25rem;
+    text-transform: capitalize;
+    color: #fff;
+    text-align: left;
+    width:50%;
+    margin-left: 1%;
+}
+
+/* Section Contact */
+
+.contact{
+    background-color: #E9ECEF;
+    padding: 20px;
+}
+
+.contact form input{
+    width: 300px!important;
+    margin-bottom: 20px;
+    background-color: #E9ECEF;
+}
+
+.contact form textarea{
+    height: 96px;
+    background-color: #E9ECEF;
+    margin-bottom: 20px;
+    width: 400px!important;
+    resize: none;
+}
+
+.contact form button{
+    width: 100px;
+}
+
+/* End About Page */
+
+/* Start Media Query */
+
+@media (max-width: 991px){
+
+    .main aside{
+        display: none;
+    }
+
+    .main main{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+}
+
+/* End Media Query */
+
+/* Start Hover.css Editing */
+
+.hvr-underline-from-center:before{
+    background:#fff;
+}
+
+/* End Hover.css Editing */
+
+/* Start Animating */
+
+.wtcm-fb{
+    animation-name: wtcm-fb;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.wtcm-msg{
+    animation-name: wtcm-msg;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    float: right;
+}
+
+.alerts{
+    animation-name: alerts;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    font-size: 1.25rem;
+}
+
+@keyframes wtcm-fb {
+    from{
+        color: #000;
+    }
+    to{
+        color: #4267B2;
+    }
+}
+
+@keyframes wtcm-msg {
+    from{
+        color: #000;
+    }
+    to{
+        color: #339AF0;
+    }
+}
+
+@keyframes alerts {
+    from{
+        color: #000;
+    }
+    to{
+        color: #28A745;
+    }
+}
+
+/* End Animation */
