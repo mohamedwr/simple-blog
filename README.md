@@ -26,4 +26,4 @@ Then Open install.php File in the Browser and then Enter the Password: @admin000
 Consider Having Latest Stable Versions of PHP and MySQL
 
 ## LICENSE
-The Project is under MIT License, Consider Checking LICENSE.md File
+The Project is under MIT License, Consider Checking LICENSE File
