@@ -8,8 +8,8 @@ a Simple Personal Blog made with PHP and MySQL
 * HTML
 * CSS
 * JavaScript
-* PHP
-* MySQL
+* [PHP](https://php.net)
+* [MySQL](https://mysql.com)
 
 ## Used Libraries
 * [Bootstrap](https://getbootstrap.com/) under MIT License
